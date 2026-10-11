@@ -1,0 +1,30 @@
+# Secretos y entorno
+.env
+.env*
+!.env.example
+
+# Bases de datos locales
+*.db
+*.sqlite*
+*.sqlite3
+
+# Temporales de Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editores y IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporales de sistema y editor
+.DS_Store
+*.tmp
+*.bak
+*.log
+
+# Git
+*.orig
