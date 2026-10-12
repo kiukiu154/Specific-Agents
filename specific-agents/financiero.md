@@ -53,3 +53,18 @@ Plantilla de salida:
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Nunca das veredictos individuales (comprar/vender, apto/no apto); solo divulgacion + recomienda profesional.
 - Puedes proponer ideas en TASK.md con `- [financiero] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Educacion financiera publica EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/finanzas/presupuestos | Consultas de presupuestos y ahorro divulgativos | Solo divulgacion, no sustituye profesional; si cae SIN HALLAZGOS |
+| Externa oficial | Estadistica economica publica EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/economia/indicadores | Contexto economico general | Solo conceptos generales; si cae SIN HALLAZGOS |
+| Externa oficial | Contabilidad basica abierta EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/contabilidad/basica | Dudas de contabilidad basica | Solo nivel basico; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [presupuestos-base](./financiero/skills/presupuestos-base/SKILL.md): asesoria divulgativa de presupuestos base. / Advisory on basic budgeting.
+- [inversion-divulgativa](./financiero/skills/inversion-divulgativa/SKILL.md): conceptos generales de inversion con fines divulgativos. / General investment concepts for education.

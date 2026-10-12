@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [software] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Documentacion tecnica abierta EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/software/arquitectura | Consultas de arquitectura y patrones | Solo orientacion conceptual; si cae SIN HALLAZGOS |
+| Externa oficial | Guia publica de buenas practicas EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/software/buenas-practicas | Buenas practicas y revision conceptual | Solo lectura, no edita codigo; si cae SIN HALLAZGOS |
+| Externa oficial | Referencia abierta de lenguajes EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/software/lenguajes | Dudas de lenguajes generales | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [arquitectura-patrones](./software/skills/arquitectura-patrones/SKILL.md): asesoria de arquitectura y patrones. / Architecture and patterns advice.
+- [revision-conceptual](./software/skills/revision-conceptual/SKILL.md): revision conceptual por lectura sin editar. / Conceptual review by reading only.

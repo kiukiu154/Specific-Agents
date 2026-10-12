@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [productividad] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Guia abierta de gestion del tiempo EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/productividad/tiempo | Gestion del tiempo | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Manual publico de habitos EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/productividad/habitos | Habitos y sistemas | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Referencia abierta de organizacion EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/productividad/sistemas | Sistemas de trabajo | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [gestion-tiempo](./productividad/skills/gestion-tiempo/SKILL.md): asesoria de gestion del tiempo. / Time management advice.
+- [habitos-sistemas](./productividad/skills/habitos-sistemas/SKILL.md): asesoria de habitos y sistemas. / Habits and systems advice.

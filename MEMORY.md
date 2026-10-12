@@ -42,3 +42,16 @@
 - Decisiones Q1-Q5: Otra ruta confirmada C:\...\specific-agents\, NO TOCAR coordinator, sin prefijo, mover físico, criterios aprobados
 - Secundarios descartados: financiero, videojuegos, leyes, medicina, logistica, arte, escritura, mejorador-prompt, ciencia, historia, marketing, productividad (principal software)
 - Ciclos: 1 ciclo implementer->reviewer, sin escalado (5+1 preguntas planner respondidas)
+
+## Entrada 2026-10-12 - Reordenar README + crear SECURITY.md
+- Fecha: 2026-10-12
+- Agente que lo detectó: planner (contexto) + coordinator (cierre)
+- Motivo: Petición orquestador "reordena y mejora el README.md, anade un SECURITY.md". Cambio GRANDE: documentación pública bilingüe con índice + política de seguridad (ante duda tratado como grande).
+- Archivos:
+  - Modificado (1): README.md (reorden 41+/8-, cabecera + badges placeholder + índice ES/EN + secciones Seguridad/Contribuir + enlaces SECURITY.md, mantiene <URL_DEL_REPO> y LICENSE)
+  - Creado (1): SECURITY.md (64 líneas, bilingüe ES+EN Alcance/Scope, reporte con <CANAL_REPORTE> + GitHub Advisories, 0 emails/URLs/secretos)
+- Veredicto reviewer: APROBADO
+- Verificación start: OK (diff README.md 41+/8-, status M README.md + ?? SECURITY.md, verify NINGUNA tools/ inexistente, 6+13 intactos)
+- Criterios: 3/3 CUMPLE (README índice+Seguridad 0 http, SECURITY 64 líneas >30 0 secretos, solo M+?? sin regresión)
+- Seguridad: SIN HALLAZGOS - NO APLICA (solo markdown, sin backend/auth/datos, 0 http/@/secretos verificados)
+- Ciclos: 1 ciclo implementer->reviewer, sin escalado

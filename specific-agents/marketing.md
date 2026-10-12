@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [marketing] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Guia abierta de estrategia EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/marketing/estrategia | Estrategia y contenidos | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Referencia publica de SEO EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/marketing/seo | SEO y redes | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Datos abiertos de audiencia EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/marketing/audiencia | Analisis de publico | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [estrategia-contenidos](./marketing/skills/estrategia-contenidos/SKILL.md): asesoria de estrategia y contenidos. / Strategy and content advice.
+- [seo-redes](./marketing/skills/seo-redes/SKILL.md): asesoria de SEO y redes. / SEO and social advice.

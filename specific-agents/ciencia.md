@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [ciencia] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Portal publico de ciencia EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/ciencia/metodo | Metodo y rigor | Solo divulgacion; si cae SIN HALLAZGOS |
+| Externa oficial | Biblioteca abierta de divulgacion EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/ciencia/divulgacion | Explicacion por niveles | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Datos abiertos de investigacion EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/ciencia/datos | Profundizacion verificable | Solo orientacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [metodo-rigor](./ciencia/skills/metodo-rigor/SKILL.md): asesoria de metodo y rigor. / Method and rigor advice.
+- [explicacion-niveles](./ciencia/skills/explicacion-niveles/SKILL.md): explicacion por niveles. / Level-based explanations.

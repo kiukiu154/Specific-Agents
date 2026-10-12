@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [videojuegos] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Documentacion abierta de diseno EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/videojuegos/diseno | Consultas de mecanicas y balanceo | Solo orientacion general; si cae SIN HALLAZGOS |
+| Externa oficial | Archivo publico de narrativa EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/videojuegos/narrativa | Consultas de narrativa y niveles | Solo referencias generales; si cae SIN HALLAZGOS |
+| Externa oficial | Datos abiertos de industria EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/videojuegos/industria | Contexto de industria y cultura | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [mecanicas-balanceo](./videojuegos/skills/mecanicas-balanceo/SKILL.md): asesoria de mecanicas y balanceo. / Gameplay mechanics and balancing advice.
+- [narrativa-niveles](./videojuegos/skills/narrativa-niveles/SKILL.md): asesoria de narrativa y diseno de niveles. / Narrative and level design advice.

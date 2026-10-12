@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [historia] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Archivo publico historico EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/historia/archivo | Epocas y contexto | Solo divulgacion; si cae SIN HALLAZGOS |
+| Externa oficial | Biblioteca abierta de historia EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/historia/epocas | Analisis de epocas | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Cronologia publica verificable EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/historia/cronologia | Causas y consecuencias | Declara incertidumbre; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [epocas-contexto](./historia/skills/epocas-contexto/SKILL.md): asesoria de epocas y contexto. / Periods and context advice.
+- [causas-consecuencias](./historia/skills/causas-consecuencias/SKILL.md): analisis de causas y consecuencias. / Causes and consequences analysis.

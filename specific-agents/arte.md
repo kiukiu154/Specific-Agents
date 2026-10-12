@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [arte] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Coleccion publica de museos EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/arte/colecciones | Historia y critica general | Solo referencias generales; si cae SIN HALLAZGOS |
+| Externa oficial | Archivo abierto de tecnicas EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/arte/tecnicas | Tecnicas creativas | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Biblioteca publica de arte EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/arte/historia | Contexto historico-artistico | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [historia-critica](./arte/skills/historia-critica/SKILL.md): asesoria de historia y critica. / Art history and criticism.
+- [tecnicas-creativas](./arte/skills/tecnicas-creativas/SKILL.md): asesoria de tecnicas creativas. / Creative techniques advice.

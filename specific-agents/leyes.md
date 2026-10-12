@@ -53,3 +53,18 @@ Plantilla de salida:
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Nunca das veredictos individuales; solo divulgacion + recomienda profesional.
 - Puedes proponer ideas en TASK.md con `- [leyes] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Legislacion publica abierta EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/leyes/legislacion | Conceptos y procesos generales | Solo divulgacion, no sustituye abogado; si cae SIN HALLAZGOS |
+| Externa oficial | Boletin oficial publico EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/leyes/boletin | Verificacion de norma vigente | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Guia publica de derechos EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/leyes/derechos | Derechos y limites generales | Solo general; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [conceptos-procesos](./leyes/skills/conceptos-procesos/SKILL.md): divulgacion de conceptos y procesos legales. / General legal concepts and processes.
+- [derechos-limites](./leyes/skills/derechos-limites/SKILL.md): divulgacion de derechos y limites. / Rights and limits overview.

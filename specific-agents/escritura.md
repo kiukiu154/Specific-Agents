@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [escritura] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Guia abierta de estilo EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/escritura/estilo | Correccion y estilo | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Manual publico de narrativa EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/escritura/narrativa | Estructura narrativa | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Biblioteca publica de referencia EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/escritura/referencia | Redaccion general | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [narrativa-estructura](./escritura/skills/narrativa-estructura/SKILL.md): asesoria de narrativa y estructura. / Narrative and structure advice.
+- [correccion-estilo](./escritura/skills/correccion-estilo/SKILL.md): asesoria de correccion y estilo. / Proofreading and style advice.

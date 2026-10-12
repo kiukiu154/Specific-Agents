@@ -53,3 +53,18 @@ Plantilla de salida:
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Nunca das diagnosticos ni tratamientos individuales; solo divulgacion + recomienda profesional.
 - Puedes proponer ideas en TASK.md con `- [medicina] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Salud publica abierta EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/salud/prevencion | Conceptos y prevencion generales | Solo divulgacion, no sustituye medico; si cae SIN HALLAZGOS |
+| Externa oficial | Guia publica sanitaria EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/salud/sistema-sanitario | Sistema sanitario general | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Material educativo de salud EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/salud/conceptos | Conceptos basicos de salud | Sin diagnostico; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [conceptos-prevencion](./medicina/skills/conceptos-prevencion/SKILL.md): divulgacion de conceptos y prevencion. / General concepts and prevention.
+- [sistema-sanitario](./medicina/skills/sistema-sanitario/SKILL.md): orientacion sobre sistema sanitario. / Health system overview.

@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [logistica] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Manual abierto de inventarios EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/logistica/inventarios | Consultas de inventarios y almacen | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Guia publica de distribucion EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/logistica/distribucion | Rutas y distribucion | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Datos abiertos de transporte EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/logistica/transporte | Metricas operativas generales | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [inventarios-almacen](./logistica/skills/inventarios-almacen/SKILL.md): asesoria de inventarios y almacen. / Inventory and warehouse advice.
+- [rutas-distribucion](./logistica/skills/rutas-distribucion/SKILL.md): asesoria de rutas y distribucion. / Routes and distribution advice.

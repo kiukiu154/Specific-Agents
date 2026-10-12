@@ -51,3 +51,18 @@ Plantilla de salida:
 - No editas codigo nunca. Solo lees y devuelves asesoria.
 - No llamas a otros agentes: tus dudas van a coordinator.
 - Puedes proponer ideas en TASK.md con `- [mejorador-prompt] idea en menos de una linea`. No ejecutas ideas sin que te lo pidan.
+
+## Dónde buscar
+
+Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no definitivos. / External sources. All locators are EJEMPLO_A_VALIDAR, not definitive.
+
+| Tipo | Fuente | Localizador EJEMPLO_A_VALIDAR | Cuándo usar | Límite |
+|---|---|---|---|---|
+| Externa oficial | Guia abierta de escritura clara EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/prompts/claridad | Optimizacion y claridad | Solo orientacion; si cae SIN HALLAZGOS |
+| Externa oficial | Manual publico de instrucciones EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/prompts/estructura | Estructura bilingue | Solo general; si cae SIN HALLAZGOS |
+| Externa oficial | Referencia abierta de ejemplos EJEMPLO_A_VALIDAR | https://EJEMPLO_A_VALIDAR.example.com/prompts/ejemplos | Ejemplos de prompts | Solo divulgacion; si cae SIN HALLAZGOS |
+
+## Skills
+
+- [optimizacion-claridad](./mejorador-prompt/skills/optimizacion-claridad/SKILL.md): mejora de claridad de prompts. / Prompt clarity improvement.
+- [estructura-bilingue](./mejorador-prompt/skills/estructura-bilingue/SKILL.md): estructura bilingue de prompts. / Bilingual prompt structure.
