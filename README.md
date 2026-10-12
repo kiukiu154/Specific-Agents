@@ -31,7 +31,7 @@ Sistema multiagente con enrutamiento automático: un coordinador clasifica cada 
 
 ### Uso
 
-1. Clona el repositorio: `git clone <URL_DEL_REPO>`
+1. Clona el repositorio: `git clone https://github.com/kiukiu154/Specific-Agents`
 2. Abre la carpeta en tu herramienta con OpenCode.
 3. El agente `start` verifica el estado y el `coordinator` enruta tu petición al agente temático adecuado.
 
@@ -45,7 +45,7 @@ MIT — ver [LICENSE](LICENSE).
 
 ### Contribuir
 
-Abre un issue o pull request en el repositorio (`<URL_DEL_REPO>`) describiendo el cambio propuesto.
+Abre un issue o pull request en el repositorio (`https://github.com/kiukiu154/Specific-Agents`) describiendo el cambio propuesto.
 
 ---
 
@@ -61,7 +61,7 @@ Multi-agent system with automatic routing: a coordinator classifies each request
 
 ### Usage
 
-1. Clone the repository: `git clone <URL_DEL_REPO>`
+1. Clone the repository: `git clone https://github.com/kiukiu154/Specific-Agents`
 2. Open the folder in your OpenCode-enabled tool.
 3. The `start` agent checks the status and the `coordinator` routes your request to the right topic agent.
 
@@ -75,4 +75,4 @@ MIT — see [LICENSE](LICENSE).
 
 ### Contributing
 
-Open an issue or pull request in the repository (`<URL_DEL_REPO>`) describing the proposed change.
+Open an issue or pull request in the repository (`https://github.com/kiukiu154/Specific-Agents`) describing the proposed change.
