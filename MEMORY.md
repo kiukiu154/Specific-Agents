@@ -55,3 +55,33 @@
 - Criterios: 3/3 CUMPLE (README índice+Seguridad 0 http, SECURITY 64 líneas >30 0 secretos, solo M+?? sin regresión)
 - Seguridad: SIN HALLAZGOS - NO APLICA (solo markdown, sin backend/auth/datos, 0 http/@/secretos verificados)
 - Ciclos: 1 ciclo implementer->reviewer, sin escalado
+
+## Entrada 2026-10-12 - Subir cambios al repo (push 537ab00)
+- Fecha: 2026-10-12
+- Agente que lo detectó: planner (contexto push) + coordinator (cierre)
+- Motivo: Petición orquestador "listo, ahora sube los archivos y las modificaciones al repo sin hacer preguntas". Cambio GRANDE: commit + push historial público.
+- Archivos:
+  - Commit 537ab00 "docs: reordenar README, anadir SECURITY y consolidar specific-agents" (16 files, 313+/8-): M README.md, M MEMORY.md (entrada previa), M 13 specific-agents/*.md, A SECURITY.md
+  - Push: a18bb9c..537ab00 main -> main a origin https://github.com/kiukiu154/Specific-Agents, status ## main...origin/main sin ahead/behind, diff tracked vacío
+  - Pendientes ?? no subidos: 20 SKILL.md + marker_shell.txt en specific-agents/*/ (fuera de contexto, jamás add -A ni --force)
+- Veredicto reviewer: APROBADO
+- Verificación start: OK (status tracked limpio, log 537ab00 sincronizado origin/main, remote origin fetch/push, verify NINGUNA tools/ inexistente)
+- Criterios: 5/5 CUMPLE (add 16 explícitos, commit 313+/8-, push sincronizado, diff vacío, 0 secretos LICENSE/.gitignore intactos)
+- Seguridad: SIN HALLAZGOS (gate grep BEGIN PRIVATE KEY/AKIA vacío, sin .env, .gitignore:1-4 bloquea .env, sin --force ni credenciales)
+- Ciclos: 1 ciclo implementer->reviewer, sin escalado, sin preguntas por orden explícita
+
+## Entrada 2026-10-12 - Mejora agentes Dónde buscar + 26 skills
+- Fecha: 2026-10-12
+- Agente que lo detectó: planner (contexto 13M+26C) + coordinator (cierre)
+- Motivo: Petición orquestador mejora agentes con dónde buscar + skills por carpeta independiente. Cambio GRANDE: 13 contratos + 13 carpetas skills (ante duda tratado como grande).
+- Archivos:
+  - Modificados (13): specific-agents/*.md con ## Dónde buscar (3 filas EJEMPLO_A_VALIDAR) + ## Skills (2 links)
+  - Creados (26): specific-agents/<agente>/skills/<skill>/SKILL.md (2 por agente, frontmatter heredado)
+  - No tocados: .opencode/agents/coordinator.md, README.md, SECURITY.md
+- Veredicto reviewer: APROBADO
+- Verificación start: OK (13 Dónde buscar 13/13, 26 SKILL.md, verify NINGUNA, status ??13 carpetas + M MEMORY.md ajeno)
+- Criterios: 5/5 CUMPLE (13 Dónde buscar, 26 skills, cláusula 13+3+3, permisos solo TASK.md, alcance solo specific-agents)
+- Seguridad: SIN HALLAZGOS (8 requisitos cybersecurity, 0 http/IP/secretos, 0 MEMORY, frontmatter sin ampliación)
+- Decisiones: fuentes externas, convención OpenCode, solo specific-agents, mantener cláusula, 3+2
+- Secundario descartado: mejorador-prompt (principal software intentado, Unknown agent, NINGUNA efectiva)
+- Ciclos: 1 ciclo implementer->reviewer, sin escalado (5 preguntas respondidas)
