@@ -66,5 +66,5 @@ Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_
 
 ## Skills
 
-- [presupuestos-base](./financiero/skills/presupuestos-base/SKILL.md): asesoria divulgativa de presupuestos base. / Advisory on basic budgeting.
-- [inversion-divulgativa](./financiero/skills/inversion-divulgativa/SKILL.md): conceptos generales de inversion con fines divulgativos. / General investment concepts for education.
+- [presupuestos-base](./skills/presupuestos-base/SKILL.md): asesoria divulgativa de presupuestos base. / Advisory on basic budgeting.
+- [inversion-divulgativa](./skills/inversion-divulgativa/SKILL.md): conceptos generales de inversion con fines divulgativos. / General investment concepts for education.

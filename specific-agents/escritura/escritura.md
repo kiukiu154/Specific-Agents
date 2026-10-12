@@ -64,5 +64,5 @@ Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no 
 
 ## Skills
 
-- [narrativa-estructura](./escritura/skills/narrativa-estructura/SKILL.md): asesoria de narrativa y estructura. / Narrative and structure advice.
-- [correccion-estilo](./escritura/skills/correccion-estilo/SKILL.md): asesoria de correccion y estilo. / Proofreading and style advice.
+- [narrativa-estructura](./skills/narrativa-estructura/SKILL.md): asesoria de narrativa y estructura. / Narrative and structure advice.
+- [correccion-estilo](./skills/correccion-estilo/SKILL.md): asesoria de correccion y estilo. / Proofreading and style advice.

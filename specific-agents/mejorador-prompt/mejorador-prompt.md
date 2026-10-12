@@ -64,5 +64,5 @@ Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no 
 
 ## Skills
 
-- [optimizacion-claridad](./mejorador-prompt/skills/optimizacion-claridad/SKILL.md): mejora de claridad de prompts. / Prompt clarity improvement.
-- [estructura-bilingue](./mejorador-prompt/skills/estructura-bilingue/SKILL.md): estructura bilingue de prompts. / Bilingual prompt structure.
+- [optimizacion-claridad](./skills/optimizacion-claridad/SKILL.md): mejora de claridad de prompts. / Prompt clarity improvement.
+- [estructura-bilingue](./skills/estructura-bilingue/SKILL.md): estructura bilingue de prompts. / Bilingual prompt structure.

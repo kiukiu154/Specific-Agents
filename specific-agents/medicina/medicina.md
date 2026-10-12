@@ -66,5 +66,5 @@ Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_
 
 ## Skills
 
-- [conceptos-prevencion](./medicina/skills/conceptos-prevencion/SKILL.md): divulgacion de conceptos y prevencion. / General concepts and prevention.
-- [sistema-sanitario](./medicina/skills/sistema-sanitario/SKILL.md): orientacion sobre sistema sanitario. / Health system overview.
+- [conceptos-prevencion](./skills/conceptos-prevencion/SKILL.md): divulgacion de conceptos y prevencion. / General concepts and prevention.
+- [sistema-sanitario](./skills/sistema-sanitario/SKILL.md): orientacion sobre sistema sanitario. / Health system overview.

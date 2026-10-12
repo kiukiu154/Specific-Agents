@@ -64,5 +64,5 @@ Fuentes externas de consulta. Todos los localizadores son EJEMPLO_A_VALIDAR, no 
 
 ## Skills
 
-- [arquitectura-patrones](./software/skills/arquitectura-patrones/SKILL.md): asesoria de arquitectura y patrones. / Architecture and patterns advice.
-- [revision-conceptual](./software/skills/revision-conceptual/SKILL.md): revision conceptual por lectura sin editar. / Conceptual review by reading only.
+- [arquitectura-patrones](./skills/arquitectura-patrones/SKILL.md): asesoria de arquitectura y patrones. / Architecture and patterns advice.
+- [revision-conceptual](./skills/revision-conceptual/SKILL.md): revision conceptual por lectura sin editar. / Conceptual review by reading only.

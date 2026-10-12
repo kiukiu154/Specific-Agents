@@ -66,5 +66,5 @@ Fuentes externas de consulta divulgativa. Todos los localizadores son EJEMPLO_A_
 
 ## Skills
 
-- [conceptos-procesos](./leyes/skills/conceptos-procesos/SKILL.md): divulgacion de conceptos y procesos legales. / General legal concepts and processes.
-- [derechos-limites](./leyes/skills/derechos-limites/SKILL.md): divulgacion de derechos y limites. / Rights and limits overview.
+- [conceptos-procesos](./skills/conceptos-procesos/SKILL.md): divulgacion de conceptos y procesos legales. / General legal concepts and processes.
+- [derechos-limites](./skills/derechos-limites/SKILL.md): divulgacion de derechos y limites. / Rights and limits overview.
